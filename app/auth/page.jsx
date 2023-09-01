@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const AuthPage = () => {
-  const redirectUrl = `${window.location.origin}/auth/callback`;
+  const redirectUrl = `${process.env.LOCATION_ORIGIN}/auth/callback`;
   const supabase = createClientComponentClient();
   return (
     <>
