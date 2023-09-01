@@ -23,6 +23,7 @@
     "autoprefixer": "10.4.14",
     "clsx": "^2.0.0",
     "debounce": "^1.2.1",
+    "encoding": "^0.1.13",
     "moment": "^2.29.4",
     "next": "13.4.12",
     "next-auth": "^4.22.3",
